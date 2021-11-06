@@ -681,7 +681,7 @@ a:hover {
   opacity: 0.9;
 }
 .hero .hero-title {
-  color: #fff;
+  color: rgba(211, 99, 29, 1.0);
   font-weight: 600;
   font-size: 3rem;
 }
@@ -691,6 +691,7 @@ a:hover {
   }
 }
 .hero .hero-subtitle {
+  color: rgba(211, 99, 29, 1.0);
   font-size: 1.5rem;
   font-weight: 600;
 }
