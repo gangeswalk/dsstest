@@ -10,17 +10,17 @@
     position: relative;
 }
 
-/* .div-container {
+.div-container {
     display:flex;
     
-  } */
+  }
 
   
 
 
 
 
-  /* article {
+  article {
     display: inline-block;
     color: darkgreen;
   }
@@ -72,4 +72,4 @@
     .one-third {
       width: 97%;
     }
-  } */
+  }
