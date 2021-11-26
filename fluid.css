@@ -1,9 +1,21 @@
 
-
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/soura-ladies-convention-web.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+}
 
 .div-container {
-    margin: 0 5%;
+    /* margin: 0 5%; */
+    
   }
+
+  
 
 
 
