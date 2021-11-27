@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero {
     background-size: cover;
-    width: 1200px;
+    /* width: 1200px; */
   }
 }
 
@@ -429,6 +429,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero {
     background-size: cover;
+    width: 600px;
   }
 }
 
