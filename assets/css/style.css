@@ -399,9 +399,9 @@ h1, h2, h3, h4, h5, h6 {
   .logo-box {
     width: 500px;
   }
-  #hero {
+  /* #hero {
     background-size: fixed;
-  }
+  } */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
