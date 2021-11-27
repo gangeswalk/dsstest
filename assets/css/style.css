@@ -1,10 +1,3 @@
-/**
-* Template Name: Knight - v4.7.0
-* Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -296,7 +289,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.png");
+  background: url("../img/dss/soura-ladies-convention-web.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
   position: relative;
 }
 #hero .hero-container {
@@ -371,7 +368,14 @@ section {
 }
 
 .section-bg {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  /* height: 100vh; */
+  background: url("../img/dss/soura-ladies-convention-web.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
 }
 
 .section-title {
@@ -694,6 +698,8 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
