@@ -399,9 +399,6 @@ h1, h2, h3, h4, h5, h6 {
   .logo-box {
     width: 500px;
   }
-  /* #hero {
-    background-size: fixed;
-  } */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -411,9 +408,10 @@ h1, h2, h3, h4, h5, h6 {
   .content-box {
     width: 500px;
   }
-  #hero {
+  #hero .section-bg {
     background-attachment: local;
   }
+  
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -423,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
   .content-box {
     width: 450px;
   }
-  #hero {
+  #hero .section-bg {
     background-attachment: local;
   }
 }
@@ -435,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
   .content-box {
     width: 350px;
   }
-  #hero {
+  #hero .section-bg {
     background-attachment: local;
   }
 }
@@ -1082,7 +1080,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  /* background: #fff; */
   padding: 60px 0;
 }
 .team .member {
