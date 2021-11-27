@@ -378,11 +378,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
-}
+} */
+
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
@@ -390,9 +391,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero h2 {
     line-height: 22px;
-  }
-  #hero {
-    background-size: cover;
   }
 }
 
@@ -402,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 500px;
   }
   #hero {
-    background-size: cover;
+    background-size: fixed;
   }
 }
 
@@ -414,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 500px;
   }
   #hero {
-    background-attachment: local;
+    background-attachment: fixed;
   }
 }
 
