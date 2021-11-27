@@ -414,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 500px;
   }
   #hero {
-    background-size: cover;
+    background-attachment: local;
   }
 }
 
@@ -426,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 450px;
   }
   #hero {
-    background-size: cover;
+    background-attachment: local;
   }
 }
 
