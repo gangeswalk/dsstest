@@ -497,6 +497,165 @@ section {
 
 
 /*--------------------------------------------------------------
+# Welcome
+--------------------------------------------------------------*/
+
+.welcome {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/dss/soura-ladies-convention-web.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;  
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.logo-box {
+  display: flex;
+  width: 500px;
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: rgb(255, 255, 255, 0.3);  
+}
+
+.content-box  {
+    background-color: rgba(165, 0, 32, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 0px;
+    /* margin: 1rem; */
+    /* width: 800px; */
+    width: 500px;
+    padding: 15px;
+  }
+
+  .welcome-text {
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content-box-saffron-red  {
+    background-color: rgba(165, 0, 32, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 0px;
+    /* margin: 1rem; */
+    /* width: 800px; */
+    /* height: 900px; */
+    padding: 15px;
+  }
+
+  .content-box-dark-saffron  {
+    background-color: rgba(227, 100, 20, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 0px;
+    /* margin: 1rem; */
+    /* width: 800px; */
+    /* height: 600px; */
+    padding: 15px;
+  }
+
+  .content-box-light-saffron  {
+    background-color: rgba(251, 139, 36, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 0px;
+    /* margin: 1rem; */
+    /* width: 800px; */
+    /* height: 900px; */
+    padding: 15px;
+  }
+
+  .content-box-turmeric  {
+    background-color: rgba(247, 178, 0, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 0px;
+    /* margin: 1rem; */
+    /* width: 800px; */
+    /* height: 900px; */
+    padding: 15px;
+  }
+
+  .p-welcome {
+    font-size: 18px;
+    color: white;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .logo-box {
+      width: 500px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo-box {
+      width: 500px;
+    }
+    .content-box {
+      width: 500px;
+    }
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .logo-box {
+      width: 450px;
+    }
+    .content-box {
+      width: 450px;
+    }
+    .welcome {
+      background-attachment: scroll;
+    }
+  }
+
+  @media only screen and (max-width: 479px) {
+    .logo-box {
+      width: 350px;
+    }
+    .content-box {
+      width: 350px;
+    }
+    .welcome {
+      background-attachment: scroll;
+    }
+  }
+
+
+
+
+/*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
 .about .image {
