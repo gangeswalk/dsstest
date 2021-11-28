@@ -8,11 +8,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #7cc576;
+  color: #a50020;
 }
 
 a:hover {
-  color: #9ed49a;
+  color: #e36414;
   text-decoration: none;
 }
 
@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   background: #f7b200;
   opacity: 0.8;
-  background: #fff;
   box-shadow: 0 4px 10px -3px rgba(191, 191, 191, 0.5);
 }
 #header .logo h1 {
