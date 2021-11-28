@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #7cc576;
+  background: #a50020;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #97d193;
+  background: #e36414;
   color: #fff;
 }
 .back-to-top.active {
@@ -62,10 +62,12 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 90px;
+  height: 70px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
+  background: #f7b200;
+  opacity: 0.8;
   background: #fff;
   box-shadow: 0 4px 10px -3px rgba(191, 191, 191, 0.5);
 }
@@ -93,11 +95,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .scrolled-offset {
-  margin-top: 90px;
+  /* margin-top: 90px; */
+  margin-top: 0px;
 }
 @media (max-width: 992px) {
   .scrolled-offset {
-    margin-top: 90px;
+    /* margin-top: 90px; */
+    margin-top: 0px;
   }
 }
 
@@ -137,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #7cc576;
+  color: #a50020;
 }
 .navbar .dropdown ul {
   display: block;
@@ -166,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #7cc576;
+  color: #a50020;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -251,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #151515;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #7cc576;
+  color: #a50020;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -277,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #7cc576;
+  color: #e36414;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -342,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   transition: 0.5s;
   background: #fff;
-  color: #7cc576;
+  color: #e36414;
 }
 
 .logo-box {
@@ -476,9 +480,9 @@ section {
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .section-bg {
+  /* .section-bg {
     background-attachment: scroll;
-  }
+  } */
   
 }
 
@@ -1651,7 +1655,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: url("../img/dss/soura-ladies-convention-web.jpg") center center no-repeat;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1663,7 +1667,8 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(247, 178, 0, 1.0);
+  opacity: 0.5;
   z-index: 1;
 }
 #footer .footer-top {
@@ -1717,14 +1722,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #7cc576;
+  background: #a50020;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #5ab652;
+  background: #e36414;
 }
 #footer .footer-top .social-links {
   margin-top: 30px;
