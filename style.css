@@ -73,14 +73,14 @@ main section {
 }
 main img {
     width: 100%;
-    padding: 30px 20px 20px 20px;
+    padding: 20%;
 }
 @media screen and (max-width: 815px) {
     nav ul {
         height: 145px;
     }
     nav {
-        background-color: lemonchiffon;
+        /* background-color: lemonchiffon; */
         position: absolute;
         width: 100%;
         max-height: 275px;
