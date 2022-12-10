@@ -112,7 +112,7 @@ main img {
     background-color: darkorange;
     color: beige;
     cursor: pointer;
-    padding: 7px 15px;
+    padding: 5px 15px 7px 15px;
     border-radius: 4px;
   }
   #myBtn:hover {
